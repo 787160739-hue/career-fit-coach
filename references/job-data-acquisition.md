@@ -14,7 +14,7 @@ Normalize to the fields in `schemas.md`. Preserve unknown fields as blank rather
 
 1. If the user already has job descriptions, analyze them directly.
 2. If a signed-in visible browser page is available and the user requests help, inspect only visible/interactive content.
-3. If a list page cannot be semantically read, ask the user to open it normally and use the local exporter asset. The exporter reads anchors already present in the page and downloads a CSV locally. It supports 猎聘、Boss直聘、智联招聘、前程无忧、拉勾 and LinkedIn/领英; read `site-adapters.md` for the recognized URL forms.
+3. If a list page cannot be semantically read, ask the user to open it normally and use the local exporter asset only when `site-adapters.md` marks that platform as exporter-supported. The exporter reads anchors already present in the page and downloads a CSV locally. LinkedIn/领英 is import-only: accept user-provided links, text, PDFs or permitted platform exports, but do not use the bundled bookmarklet on LinkedIn.
 4. If the exporter yields only titles and URLs, analyze a small shortlist first. Detail pages may still be readable individually.
 5. If detail pages are blocked, ask the user to copy the job-description text or save/print selected pages; do not keep probing.
 

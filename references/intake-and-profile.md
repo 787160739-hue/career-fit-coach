@@ -40,3 +40,5 @@ Produce a compact profile with:
 - search keyword matrix: role title × domain × capability × city.
 
 Explain tradeoffs. For example, client-facing solution roles may fit skills while conflicting with a preference against frequent coordination or travel.
+
+When two or more plausible role families remain, read `career-direction.md` and compare them before naming a primary direction. Do not collapse “good at” and “wants to do,” and do not present market demand or long-term prospects as facts without current evidence.

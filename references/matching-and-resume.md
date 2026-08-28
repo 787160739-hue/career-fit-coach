@@ -1,18 +1,18 @@
 # Matching and resume rubric
 
-## Human review rubric
+## Separate the decisions
 
-Use these dimensions without pretending the score is perfectly objective:
+Do not use one opaque match score for every decision:
 
-| Dimension | Typical weight | What to inspect |
-|---|---:|---|
-| Core work | 30 | Day-to-day responsibilities and project stage |
-| Evidence and tools | 25 | Proven examples, outputs and actual tool use |
-| Seniority and eligibility | 15 | Years, education, language and required background |
-| Location and compensation | 15 | Hard constraints, total package and relocation economics |
-| Work-style fit | 15 | Travel, client exposure, overtime signals, culture and autonomy |
+| Decision | What to inspect |
+|---|---|
+| Eligibility | Explicit constraints, minimum requirements and non-negotiables |
+| Capability fit | Core work, proven evidence, tools, delivery stage and seniority |
+| Preference fit | Desired tasks, coordination load, travel, client exposure, autonomy and avoid signals |
+| Strategic value | Whether a bridgeable stretch supports the chosen direction |
+| Application priority | The decision after job quality, uncertainty and the preceding dimensions are considered |
 
-Change weights when the user explicitly prioritizes a dimension. Record why.
+Weights are aids, not truth. Change them when the user explicitly prioritizes a dimension and record why. Never average away an explicit hard conflict. A stretch role can remain a priority when the gap is bridgeable and strategically useful, but label the bet.
 
 ## Risk handling
 
@@ -28,10 +28,12 @@ Do not infer work-life balance from company size or industry alone. Convert sign
 
 Before writing, map:
 
-| Target requirement | User evidence | Strength | Resume placement | Gap handling |
-|---|---|---|---|---|
-| Example: Agent workflow | Built workflow branches and tested real cases | Strong | Lead project bullet | None |
-| Example: production SQL | Coursework/basic queries only | Limited | Tools as “基础查询” | Do not claim business use |
+| Target requirement | Likely hiring intent | User evidence | Strength | Screening risk | Resume strategy | Interview proof |
+|---|---|---|---|---|---|---|
+| Example: Agent workflow | Independently translate a use case into a working flow *(inference)* | Built workflow branches and tested real cases | Strong | Low | Lead project bullet | Explain design, test cases and iteration |
+| Example: production SQL | Retrieve and validate business data without dependence *(inference)* | Coursework/basic queries only | Limited | Medium | List as “基础查询”; do not imply production use | State the boundary and learning plan |
+
+Treat hiring intent as an inference unless the employer confirms it. The strategy must address screening risk without rewriting a gap into experience.
 
 Prioritize the strongest 4–6 requirements. A resume is not a keyword inventory.
 
@@ -39,9 +41,10 @@ Prioritize the strongest 4–6 requirements. A resume is not a keyword inventory
 
 For each priority job include:
 
-- fit tier and confidence;
+- eligibility, capability fit, preference fit, application priority and confidence;
 - why it fits, tied to evidence;
 - likely screening objections;
+- positive quality signals, confirmed risks, items to verify and important unknowns;
 - resume changes supported by facts;
 - 3–5 interview stories or questions;
 - work-style and compensation items to verify;
