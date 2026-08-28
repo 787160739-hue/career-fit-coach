@@ -1,0 +1,5 @@
+interface:
+  display_name: "求职画像与岗位匹配"
+  short_description: "从经历访谈到岗位匹配、简历定向和投递决策"
+  brand_color: "#2369A8"
+  default_prompt: "Use $career-fit-coach to 梳理我的经历和偏好，并生成岗位搜索、匹配与简历优化方案。"
